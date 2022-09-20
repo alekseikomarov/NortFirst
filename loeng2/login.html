@@ -5,12 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <a href="index.html" style="margin: 4px;">Pealehele</a>
+    <style>
+        body{
+            margin-left: 1cm;
+        }
+        * {
+            color: green;
+        }
+        .punanetekst{
+            background-color:red;
+        }
+    </style>
 </head>
-<style>
-  body {padding: 4px;margin: 4px; width: min-content;}
-</style>
-<body style="border: solid #0000FF">
-    <h1 id="h1id">Login</h1>
+<form action="" style="padding: 4px;margin: 4px; width: min-content;border: solid #0000FF">
+<body>
+    <h1 id="h1id" class="punanetekst">Login</h1>
     <img id="img" src="images.jpg" width="100" height="70">
     <br><br>
     <label for="kasutaja">Kasutaja:</label>
@@ -34,7 +44,7 @@
         <option value="2">41-70 aastat</option>
     </select>
     <br><br>
-    <input type="submit" value="Logi sisse">
-    <script src="index.js"></script>
+    <input type="submit" value="Logi sisse" class="punanetekst">
+</form>
 </body> 
 </html>
