@@ -1,2 +1,3 @@
 # Veebiarenduse baaskursus 2022
-Täna on viies loeng
+
+September - November 2022
