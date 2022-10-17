@@ -26,7 +26,14 @@ function toggleIsDone(id){
 
 function deleteTodo(id){
     console.log(id);
-}
+    for(let i = 0; i < todos.length; i++){
+        if(todos[i].id == id){
+            todos.splice(i, 1);
+        }
+     }
+     renderTodos();
+ }
+
 
 function renderTodos(){
     todoListElement.innerHTML = '';
