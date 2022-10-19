@@ -1,0 +1,63 @@
+.konteiner{
+    width: 400px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto auto auto;
+    padding-bottom: 50px;
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+.kalkulaator{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    background-color: gray;
+    color: rgb(245, 245, 245);
+    font-size: 32px;
+}
+
+.vastus{
+    height: 40px;
+    text-align: right;
+}
+
+.nupud{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nupp{
+    width: 25%;
+    background-color: rgb(100, 100, 100);
+    text-align: center;
+    cursor: pointer;
+}
+
+.nupp:active{
+    background-color: rgb(75, 75, 75);
+}
+
+.nupp.oranz{
+    background-color: orangered;
+}
+
+.nupp.tumedam{
+    background-color: rgb(75, 75, 75);
+}
+
+.nupp.all-vasakul{
+    border-bottom-left-radius: 10px;
+}
+
+.nupp.all-paremal{
+    border-bottom-right-radius: 10px;
+}
+
